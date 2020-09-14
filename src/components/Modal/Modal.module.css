@@ -1,0 +1,57 @@
+.Modal {
+  position: fixed;
+  box-sizing: border-box;
+  padding: 5rem;
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  top: 25%;
+  left: 10%;
+  z-index: 200;
+}
+
+.Title {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.ButtonDiv {
+  text-align: center;
+}
+
+.DeleteList {
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: rgb(58, 205, 224);
+  border: 1px solid rgb(58, 205, 224);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Cancel {
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: rgb(144, 190, 59);
+  border: 1px solid rgb(144, 190, 59);
+  border-radius: 5px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.DeleteList:hover,
+.DeleteList:active {
+  background-color: red;
+}
+
+.Cancel:hover,
+.Cancel:active {
+  background-color: green;
+}
+
+@media (min-width: 40rem) {
+  .Modal {
+    left: 40%;
+  }
+}

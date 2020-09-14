@@ -1,0 +1,98 @@
+.List {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+
+.Title {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  font-weight: bolder;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.DeleteList {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.List > hr {
+  margin: 0;
+}
+
+.AddCard {
+  box-sizing: border-box;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  background: transparent;
+  width: 100%;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.TextArea {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background: #ccc;
+  margin: 0.5rem 0;
+  font-size: 1.3rem;
+}
+
+.SaveCard {
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  border: 1px solid green;
+  border-radius: 5px;
+  color: white;
+  background: green;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.SaveCard:hover,
+.SaveCard:active {
+  background: rgb(221, 221, 50);
+  border: 1px solid rgb(221, 221, 50);
+}
+
+.DeleteCard {
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  color: black;
+  font-size: 1rem;
+  margin-left: 1%;
+  border: none;
+  cursor: pointer;
+}
+
+.AddCard:hover,
+.AddCard:active {
+  background: #ccc;
+}
+
+.CardsSection {
+  box-sizing: border-box;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 1px dashed black;
+}
+
+@media (min-width: 40rem) {
+  .List {
+    width: 30%;
+    max-width: 400px;
+    display: inline-block;
+    margin: 0 0.5rem;
+    vertical-align: top;
+  }
+}

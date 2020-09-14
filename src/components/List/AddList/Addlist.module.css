@@ -1,0 +1,74 @@
+.AddlistButton {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  background: rgba(233, 233, 10, 0.5);
+  font-size: 1.2rem;
+}
+
+.AddlistButton:hover,
+.AddlistButton:active {
+  background-color: rgb(221, 221, 50);
+}
+
+.InputBox {
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.InputField {
+  width: 90%;
+  box-sizing: border-box;
+  margin: 5px 5%;
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1.2rem;
+}
+
+.Addlist {
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  background: black;
+  font-size: 1rem;
+  margin-left: 5%;
+  cursor: pointer;
+}
+
+.Addlist:hover,
+.Addlist:active {
+  background: rgb(221, 221, 50);
+  border: 1px solid rgb(221, 221, 50);
+}
+
+.Closelist {
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  color: black;
+  font-size: 1rem;
+  margin-left: 1%;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 40rem) {
+  .AddlistButton {
+    width: 30%;
+    max-width: 400px;
+    margin: 0.5rem 0;
+  }
+  .InputBox {
+    width: 30%;
+    max-width: 400px;
+    display: inline-block;
+  }
+}
