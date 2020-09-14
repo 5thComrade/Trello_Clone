@@ -8,7 +8,7 @@ Step 4: Once the dependencies are installed, run "npm start" from the root folde
 Key Features 
 
 1: Mobile First Design using pure CSS(No Frameworks used) \
-2: Data stored and retrived from LocalStorage. \
+2: Data stored and retrieved from LocalStorage. \
 3: Drag and Drop feature for cards. 
 
 This is a Trello Clone application created using create-react-app. Most of the best features of Trello are included in this app. \
